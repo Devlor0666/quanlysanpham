@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./src/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div id="logo">
+                    <a href="#"><img id="pic-logo" src="./public/image.png" alt=""></a>
+                </div>
+                <div id="search-box">
+                    <form id="search-form">
+                        <input type="text" id="input-search" placeholder="Nhập tên sản phẩm">
+                        <button type="submit" id="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <div id="cart">
+                    <button id="open-cart"><i class="fa-solid fa-cart-shopping"></i></button>
+                    <div id="list-cart">
+                        
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <section id="banner">
+            <a href="#products"><img id="pic-banner" src="./public/banner.png" alt=""></a>
+        </section>
+
+        <section id="products">
+            <select id="brand">
+                <option value="all">Tất cả sản phẩm</option>
+            </select>
+            <select id="sort">
+                <option value="default">Sắp xếp mặc định</option>
+                <option value="asc">Sắp xếp giá tăng dần</option>
+                <option value="desc">Sắp xếp giá giảm dần</option>
+            </select>
+            <span id="state"></span>
+            <div id="card-products">
+            </div>
+        </section>
+
+        <footer>
+            <span>Thông tin liên hệ</span>
+            <a style="color: black;" href="https://www.facebook.com/angminhtam.46725"><i class="fa-brands fa-facebook"></i>FaceBook</a>
+            <a style="color: black;" href="mailto:tamd35117@gmail.com"><i class="fa-regular fa-envelope"></i>Email</a>
+        </footer>
+
+    </div>
+    <script type="module" src="./src/main.js"></script>
+</body>
+</body>
+</html>

@@ -1,0 +1,122 @@
+[
+    {
+        "id": 1,
+        "name": "Dell Inspiron 15",
+        "brand": "Dell",
+        "price": 15990000,
+        "category": "Office",
+        "ram": 16,
+        "storage": "512GB SSD",
+        "cpu": "Intel Core i5-1335U",
+        "stock": 12,
+        "image": "../public/dell_inspiron.png" 
+    },
+    {
+        "id": 2,
+        "name": "Dell XPS 13",
+        "brand": "Dell",
+        "price": 28990000,
+        "category": "Ultrabook",
+        "ram": 16,
+        "storage": "512GB SSD",
+        "cpu": "Intel Core i7-1360P",
+        "stock": 7,
+        "image": "../public/dellxps13.png" 
+    },
+    {
+        "id": 3,
+        "name": "HP Pavilion 15",
+        "brand": "HP",
+        "price": 17990000,
+        "category": "Office",
+        "ram": 16,
+        "storage": "512GB SSD",
+        "cpu": "Intel Core i5-1335U",
+        "stock": 15,
+        "image": "../public/HPPavilion15L.png" 
+    },
+    {
+        "id": 4,
+        "name": "HP Victus 16",
+        "brand": "HP",
+        "price": 22990000,
+        "category": "Gaming",
+        "ram": 16,
+        "storage": "512GB SSD",
+        "cpu": "Intel Core i5-14450HX",
+        "stock": 8,
+        "image": "../public/HPVictus16.png" 
+    },
+    {
+        "id": 5,
+        "name": "Lenovo IdeaPad Slim 5",
+        "brand": "Lenovo",
+        "price": 16990000,
+        "category": "Office",
+        "ram": 16,
+        "storage": "512GB SSD",
+        "cpu": "AMD Ryzen 7 7730U",
+        "stock": 20,
+        "image": "../public/LenovoIdeaPadSlim5.png" 
+    },
+    {
+        "id": 6,
+        "name": "Lenovo Legion 5",
+        "brand": "Lenovo",
+        "price": 27990000,
+        "category": "Gaming",
+        "ram": 16,
+        "storage": "1TB SSD",
+        "cpu": "AMD Ryzen 7 7840HS",
+        "stock": 6,
+        "image": "../public/Lenovo Legion 5.png" 
+    },
+    {
+        "id": 7,
+        "name": "ASUS Vivobook 15",
+        "brand": "ASUS",
+        "price": 14990000,
+        "category": "Office",
+        "ram": 8,
+        "storage": "512GB SSD",
+        "cpu": "Intel Core i5-1335U",
+        "stock": 18,
+        "image": "../public/ASUS Vivobook 15.png" 
+    },
+    {
+        "id": 8,
+        "name": "ASUS ROG Strix G16",
+        "brand": "ASUS",
+        "price": 32990000,
+        "category": "Gaming",
+        "ram": 32,
+        "storage": "1TB SSD",
+        "cpu": "Intel Core i9-14900HX",
+        "stock": 5,
+        "image": "../public/ASUS ROG Strix G16.png" 
+    },
+    {
+        "id": 9,
+        "name": "Acer Aspire 5",
+        "brand": "Acer",
+        "price": 13990000,
+        "category": "Office",
+        "ram": 8,
+        "storage": "512GB SSD",
+        "cpu": "Intel Core i5-12450H",
+        "stock": 14,
+        "image": "../public/Acer Aspire 5.png" 
+    },
+    {
+        "id": 10,
+        "name": "Acer Nitro V 15",
+        "brand": "Acer",
+        "price": 20990000,
+        "category": "Gaming",
+        "ram": 16,
+        "storage": "512GB SSD",
+        "cpu": "Intel Core i5-13420H",
+        "stock": 9,
+        "image": "../public/Acer Nitro V 15.png" 
+    }
+]

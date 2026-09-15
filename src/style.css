@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.container{
+    background-color: rgb(155, 155, 152);
+}
+header{
+    height: 80px;
+}
+nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: lightblue;
+}
+#logo{
+    height: 100%;
+}
+#pic-logo{
+    height: 100%;
+}
+#search-box{
+    height: 40px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    width: 500px;
+}
+#search-form{
+    width: 100%;
+}
+#input-search{
+    border: none;
+    margin-left: 10px;
+    width: 90%;
+}
+#input-search:focus{
+    outline: none;
+}
+#btn-search{
+    border: none;
+    background: none;
+    margin-right: 10px;
+}
+#banner{
+    text-align: center;
+}
+#pic-banner{
+    width: 80%;
+}
+
+#open-cart{
+    border: none;
+    background: none;
+}
+
+footer{
+    margin-top: 30px;
+    height: 100px;
+    background-color: rgb(123, 123, 123);
+}
+
+.pic-product{
+    width: 200px;
+    border-radius: 10px;
+}
+
+#card-products{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    margin-top: 30px;
+    margin-left: 100px;
+}
+
+@media (max-width: 1000px){
+    #card-products{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media (max-width: 700px){
+    #card-products{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 450px){
+    #card-products{
+        grid-template-columns: 1fr;
+    }
+}
+.products{
+}
+.product{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border: none;
+    width: 200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 3px 4px 5px rgba(0, 0, 0, 0.5);
+}
+.price{
+    color: red;
+    position: absolute;
+    bottom: 40px;
+    right: 10px;
+}
+.product:hover{
+    scale: 1.1;
+    transition: 0.2s;
+}
+.add-cart{
+    position: absolute;
+    background-color: rgb(235, 250, 255);
+    color: rgb(73, 172, 206);
+    bottom: 0;
+    height: 30px;
+    width: 100%;
+}
+.add-cart:hover{
+    color: rgb(70, 51, 235);
+}
+#cart{
+    position: relative;
+} 
+#list-cart{
+    border: 1px solid;
+    position: absolute;
+    left: -400px;
+    width: 400px;
+    height: 100dvh;
+    background-color: rgb(223, 228, 228);
+    display: none;
+}
